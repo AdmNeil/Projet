@@ -1,0 +1,35 @@
+html, body, * {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  line-height: 1.5;
+}
+
+body {
+	cursor: default;
+	background-color:#384759;
+}
+
+.ch-0 {
+	text-align: center;
+	display: grid;
+	align-content: center;
+	position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.ch-1 {
+	font-family: arial;
+    color: #fff;
+}
+
+.ch-2 {
+	text-align: center;
+    margin: auto;
+    padding-bottom: 5px;
+    width: 50%;
+    font-size: 50px;
+}
